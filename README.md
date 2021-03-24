@@ -15,7 +15,7 @@ Exercise One:
 print('Welcome to Tic Tac Toe!')
  
 while True:
- # Reset the board
+ '# Reset the board
  theBoard = [' '] * 10
  playerLetter, computerLetter = inputPlayerLetter()
  turn = whoGoesFirst()
