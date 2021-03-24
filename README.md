@@ -15,7 +15,7 @@ Exercise One:
 print('Welcome to Tic Tac Toe!')
  
 while True:
- '# Reset the board
+ # Reset the board
  theBoard = [' '] * 10
  playerLetter, computerLetter = inputPlayerLetter()
  turn = whoGoesFirst()
@@ -29,13 +29,13 @@ Line 89 (if isSpaceFree(board, i):...)
 Line88 (for i in movesList:....)
 
 6. Give an example of a list or collection in this program. What is saved in the list / collection?
-
+Line144 (theBoard = [' '] * 10), an empty list with 10 empty strings.
 
 7. Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve.
-
+Line132 (def isBoardFull(board)), this function checks if the board has any empty spaces
 
 8. How does the program determine who wins the game? List the functions that the program use to determine the winner.
-
+The program determines the winner with the isWinner function which is called when the computer makes a move and while the game is playing
 
 9. If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
 
